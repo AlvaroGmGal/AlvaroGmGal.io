@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cosas de LMS</title>
+  </head>
+  <body>
+    <div id="video">
+      <h1>Multimedia</h1>
+      <video src="/assets/media/oso.mp4" controls>
+        <p>
+          Tú navegador no soporta la etiqueta video
+          <br />
+          <a href="/assets/media/oso.mp4"></a>
+        </p>
+      </video>
+    </div>
+    <div id="audio">
+      <audio
+        src="/assets/media/NoTeOlvidesDePonerElWhereEnElDeleteFrom.mp3"
+        controls
+      ></audio>
+      <p>
+        Tú navegador no soporta la etiqueta audio
+        <br />
+        <a href="/assets/media/NoTeOlvidesDePonerElWhereEnElDeleteFrom.mp3"></a>
+      </p>
+    </div>
+    <div id="object">
+      <h2>Object</h2>
+      <h3>Video</h3>
+      <object data="assets/media/oso.mp4" type="video/mp4"></object>
+      <br />
+      <h3>Archivos externos (por ejemploPDF):</h3>
+      <object
+        data="https://gutl.jovenclub.cu/wp-content/uploads/2013/10/El+gran+libro+de+HTML5+CSS3+y+Javascrip.pdf"
+        type="application/pdf"
+        width="300"
+        height="400"
+      ></object>
+      <br />
+      <h3>Error de compatibilidad:</h3>
+      <object data="BeethovenElisa.mid" type="audio/midi">
+        <em>¡Atención!</em> Este contenido no es compatible con el navegador
+        <br />
+        <h3>Google</h3>
+        <object
+          data="https://www.marca.com/"
+          type=""
+          width="480"
+          height="320"
+        ></object>
+      </object>
+      <br />
+      <h2>Iframe</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/jfKfPfyJRdk"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </body>
+</html>
+
+<!-- live server y pretier formater -->
